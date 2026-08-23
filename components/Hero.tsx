@@ -34,7 +34,7 @@ export default function Hero() {
             className="absolute inset-0"
           >
             <Image
-              src="/hero2.png"
+              src="/hero2.webp"
               alt="İkram Mobilya atölyesinde özel ölçü mobilya imalatı"
               fill
               priority
@@ -69,7 +69,7 @@ export default function Hero() {
           className="absolute inset-0"
         >
           <Image
-            src="/hero2.png"
+            src="/hero2.webp"
             alt="İkram Mobilya atölyesinde özel ölçü mobilya imalatı"
             fill
             priority
@@ -91,8 +91,8 @@ export default function Hero() {
         >
           Ölçüsü size,
           <br />
-          <span className="font-script text-6xl font-bold text-gold-deep sm:text-7xl lg:text-8xl">
-            zanaati bize ait.
+          <span className="font-script text-6xl text-gold-deep sm:text-7xl lg:text-9xl">
+            Zanaati bize ait.
           </span>
         </motion.h1>
 

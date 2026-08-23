@@ -114,7 +114,7 @@ export function getCategory(slug: string): CategoryDef | undefined {
 }
 
 export function categoryImage(slug: CategorySlug): string {
-  return `/kategori-${slug}.jpg`;
+  return `/kategori-${slug}.webp`;
 }
 
 export type SegmentSlug =
