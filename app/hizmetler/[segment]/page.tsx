@@ -3,8 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHeader from "@/components/PageHeader";
 import RevealSection from "@/components/RevealSection";
-import { JsonLd, serviceSchema } from "@/lib/schema";
+import { JsonLd, serviceSchema, faqPageSchema } from "@/lib/schema";
 import { SEGMENTS, SITE_NAME, getCategory, getSegment } from "@/lib/site";
+import { SEGMENT_CONTENT } from "@/lib/categoryContent";
+import PageArticleSections from "@/components/PageArticleSections";
 
 export function generateStaticParams() {
   return SEGMENTS.map((segment) => ({ segment: segment.slug }));
@@ -36,6 +38,7 @@ export default async function SegmentPage({
   const { segment: slug } = await params;
   const segment = getSegment(slug);
   if (!segment) notFound();
+  const article = SEGMENT_CONTENT[segment.slug];
 
   return (
     <main>
@@ -46,6 +49,7 @@ export default async function SegmentPage({
           path: `/hizmetler/${segment.slug}`,
         })}
       />
+      <JsonLd data={faqPageSchema(article.faq)} />
       <PageHeader
         kicker="Hizmet"
         title={segment.name}
@@ -57,7 +61,11 @@ export default async function SegmentPage({
         ]}
       />
 
-      <RevealSection className="mx-auto max-w-6xl px-6 py-20 lg:px-10">
+      <RevealSection className="border-t border-[var(--line)] bg-[var(--paper-warm)]">
+        <PageArticleSections article={article} />
+      </RevealSection>
+
+      <RevealSection className="mx-auto max-w-6xl px-6 pb-24 pt-20 lg:px-10">
         <p className="kicker">İlgili Üretim Kategorileri</p>
         <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-3">
           {segment.relatedCategories.map((categorySlug) => {

@@ -3,8 +3,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHeader from "@/components/PageHeader";
 import RevealSection from "@/components/RevealSection";
-import { JsonLd, collectionPageSchema } from "@/lib/schema";
+import { JsonLd, collectionPageSchema, faqPageSchema } from "@/lib/schema";
 import { CATEGORIES, SITE_NAME, getCategory, getSegment } from "@/lib/site";
+import { CATEGORY_CONTENT } from "@/lib/categoryContent";
+import PageArticleSections from "@/components/PageArticleSections";
 
 export function generateStaticParams() {
   return CATEGORIES.map((category) => ({ category: category.slug }));
@@ -38,6 +40,7 @@ export default async function CategoryPage({
   const { category: slug } = await params;
   const category = getCategory(slug);
   if (!category) notFound();
+  const article = CATEGORY_CONTENT[category.slug];
 
   return (
     <main>
@@ -48,6 +51,7 @@ export default async function CategoryPage({
           path: `/${category.slug}`,
         })}
       />
+      <JsonLd data={faqPageSchema(article.faq)} />
       <PageHeader
         kicker="Üretim Kategorisi"
         title={`${category.name} Modelleri`}
@@ -78,7 +82,11 @@ export default async function CategoryPage({
         </div>
       </RevealSection>
 
-      <RevealSection className="mx-auto max-w-6xl px-6 pb-24 lg:px-10">
+      <RevealSection className="border-t border-[var(--line)] bg-[var(--paper-warm)]">
+        <PageArticleSections article={article} />
+      </RevealSection>
+
+      <RevealSection className="mx-auto max-w-6xl px-6 pb-24 pt-20 lg:px-10">
         <p className="kicker">İlgili Hizmetler</p>
         <div className="mt-8 flex flex-wrap gap-3">
           {category.relatedSegments.map((segmentSlug) => {

@@ -65,7 +65,7 @@ export default function Home() {
                 href={`/${category.slug}`}
                 className="group relative flex min-h-[220px] flex-col justify-between overflow-hidden bg-[var(--paper)] p-8 transition-colors hover:bg-[var(--paper-warm)]"
               >
-                <div className="pointer-events-none absolute -right-6 -top-6 h-28 w-28 overflow-hidden rounded-full opacity-80 blur-[0.5px] transition-all duration-500 group-hover:opacity-100 group-hover:blur-0">
+                <div className="pointer-events-none absolute -right-6 -top-6 h-28 w-28 overflow-hidden rounded-full opacity-100 transition-all duration-500 lg:opacity-80 lg:blur-[0.5px] lg:group-hover:opacity-100 lg:group-hover:blur-0">
                   <Image
                     src={categoryImage(category.slug)}
                     alt=""
