@@ -40,7 +40,7 @@ export const CATEGORIES: CategoryDef[] = [
   {
     slug: "mutfak-dolabi",
     name: "Mutfak Dolabı",
-    title: "Özel Ölçü Mutfak Dolabı İmalatı | Çorum — İkram Mobilya",
+    title: "Özel Ölçü Mutfak Dolabı İmalatı | Çorum",
     description:
       "Çorum'da özel ölçü mutfak dolabı imalatı. Ahşap/MDF kaplama mutfak dolabı modelleri, ölçü alımından montaja kadar İkram Mobilya atölyesinde üretilir.",
     priority: 0.9,
@@ -49,7 +49,7 @@ export const CATEGORIES: CategoryDef[] = [
   {
     slug: "gardirop",
     name: "Gardırop / Vestiyer",
-    title: "Özel Ölçü Gardırop, Vestiyer, Portmanto İmalatı | Çorum — İkram Mobilya",
+    title: "Özel Ölçü Gardırop, Vestiyer, Portmanto İmalatı | Çorum",
     description:
       "Çorum'da özel ölçü gardırop, vestiyer ve portmanto imalatı. Giyinme odası ve yatak odasına özel tasarlanan gardırop modelleri İkram Mobilya atölyesinde üretilir.",
     priority: 0.9,
@@ -62,9 +62,9 @@ export const CATEGORIES: CategoryDef[] = [
   {
     slug: "yatak-odasi",
     name: "Yatak Odası",
-    title: "Yatak Odası Mobilyası İmalatı | Çorum — İkram Mobilya",
+    title: "Yatak Odası Mobilyası İmalatı | Çorum",
     description:
-      "Çorum'da yatak odası mobilyası imalatı: yatak başlığı, komodin ve şifonyer setleri. İkram Mobilya atölyesinde özel üretim.",
+      "Çorum'da yatak odası mobilyası imalatı: yatak başlığı, komodin ve şifonyer setleri özel ölçüyle üretilir. İkram Mobilya atölyesinden bireysel ve toptan sipariş alınır.",
     priority: 0.7,
     relatedSegments: [
       "bireysel-ozel-olcu-siparis",
@@ -75,9 +75,9 @@ export const CATEGORIES: CategoryDef[] = [
   {
     slug: "oturma-grubu",
     name: "Oturma Grubu",
-    title: "Oturma Grubu İmalatı | Çorum — İkram Mobilya",
+    title: "Koltuk Takımı ve Oturma Grubu İmalatı | Çorum",
     description:
-      "Çorum'da koltuk takımı ve oturma grubu imalatı: köşe koltuk, kanepe ve berjer üretimi. İkram Mobilya atölyesinde özel üretim.",
+      "Çorum'da koltuk takımı ve oturma grubu imalatı: köşe koltuk, kanepe ve berjer üretimi. İkram Mobilya atölyesi hem bireysel siparişe hem mağazalara toptan üretime bakar.",
     priority: 0.7,
     relatedSegments: [
       "bireysel-ozel-olcu-siparis",
@@ -88,9 +88,9 @@ export const CATEGORIES: CategoryDef[] = [
   {
     slug: "yemek-odasi",
     name: "Yemek Odası",
-    title: "Yemek Odası Mobilyası İmalatı | Çorum — İkram Mobilya",
+    title: "Yemek Odası Mobilyası İmalatı | Çorum",
     description:
-      "Çorum'da yemek odası mobilyası imalatı: masa, sandalye ve vitrin üretimi. İkram Mobilya atölyesinde özel üretim.",
+      "Çorum'da yemek odası mobilyası imalatı: masa, sandalye ve vitrin üretimi, mekanınızın ölçüsüne göre planlanır. İkram Mobilya atölyesinden özel ölçü ve toptan sipariş alınır.",
     priority: 0.7,
     relatedSegments: [
       "bireysel-ozel-olcu-siparis",
@@ -101,7 +101,7 @@ export const CATEGORIES: CategoryDef[] = [
   {
     slug: "ofis-ticari-mobilya",
     name: "Ofis / Ticari Mobilya",
-    title: "Ofis ve Ticari Mobilya İmalatı | Çorum — İkram Mobilya",
+    title: "Ofis ve Ticari Mobilya İmalatı | Çorum",
     description:
       "Çorum'da ofis ve ticari mekanlara özel mobilya imalatı: masa, dolap, banko üretimi. Otel, ofis ve restoran projelerine özel çözümler.",
     priority: 0.7,
@@ -136,7 +136,7 @@ export const SEGMENTS: SegmentDef[] = [
   {
     slug: "bireysel-ozel-olcu-siparis",
     name: "Bireysel Özel Ölçü Sipariş",
-    title: "Özel Ölçü Mobilya Siparişi Nasıl Verilir? | Çorum — İkram Mobilya",
+    title: "Özel Ölçü Mobilya Siparişi Nasıl Verilir? | Çorum",
     description:
       "Evinize özel ölçü mobilya siparişi: ölçü alımı, tasarım onayı, üretim ve montaj süreci. Çorum İkram Mobilya atölyesinde bireysel müşterilere özel üretim.",
     relatedCategories: ["mutfak-dolabi", "gardirop", "yatak-odasi"],
@@ -144,7 +144,7 @@ export const SEGMENTS: SegmentDef[] = [
   {
     slug: "toptan-uretim",
     name: "Toptan Üretim (Bayilere Fason)",
-    title: "Çorum Sanayi Mobilyacılar İçin Toptan / Fason Üretim — İkram Mobilya",
+    title: "Çorum Sanayi Mobilyacılar İçin Toptan / Fason Üretim",
     description:
       "Mobilya mağazalarına toptan ve fason üretim hizmeti. Çorum Organize Sanayi Bölgesi'ndeki (OSB) sanayi mobilyacılara özel kapasite ve teslim süreleriyle B2B üretim sağlıyoruz.",
     relatedCategories: ["yatak-odasi", "oturma-grubu", "yemek-odasi"],
@@ -152,7 +152,7 @@ export const SEGMENTS: SegmentDef[] = [
   {
     slug: "kurumsal-proje-uretimi",
     name: "Kurumsal Proje Üretimi",
-    title: "Otel, Ofis, Restoran Mobilya Üretimi | Çorum — İkram Mobilya",
+    title: "Otel, Ofis, Restoran Mobilya Üretimi | Çorum",
     description:
       "Otel, ofis ve restoran projelerine özel mobilya üretimi. Çorum İkram Mobilya atölyesi, kurumsal projelere anahtar teslim üretim çözümleri sunar.",
     relatedCategories: ["ofis-ticari-mobilya", "mutfak-dolabi", "gardirop"],
@@ -160,7 +160,7 @@ export const SEGMENTS: SegmentDef[] = [
   {
     slug: "mobilya-montaj-hizmeti",
     name: "Mobilya Montaj Hizmeti",
-    title: "Çorum Mobilya Montaj Ustası | Her Marka Mobilya Montajı — İkram Mobilya",
+    title: "Çorum Mobilya Montaj Ustası | Her Marka Mobilya Montajı",
     description:
       "Çorum'da mobilya montaj ustası arıyorsanız İkram Mobilya'yı arayın. Kendi ürettiğimiz mobilyaların yanı sıra farklı markaların mobilyalarının montajını da yapıyoruz.",
     relatedCategories: ["yatak-odasi", "oturma-grubu", "yemek-odasi"],
@@ -168,7 +168,7 @@ export const SEGMENTS: SegmentDef[] = [
   {
     slug: "dekorasyon-danismanligi",
     name: "Dekorasyon Danışmanlığı",
-    title: "Çorum Dekorasyon Danışmanlığı | İç Mekan Mobilya Planlaması — İkram Mobilya",
+    title: "Çorum Dekorasyon Danışmanlığı | İç Mekan Mobilya Planlaması",
     description:
       "Çorum'da dekorasyoncu arıyorsanız İkram Mobilya atölyesinden dekorasyon danışmanlığı alabilirsiniz. Oda planlaması, malzeme ve renk seçiminde imalat tecrübemizle size yol gösteriyoruz.",
     relatedCategories: ["gardirop", "yatak-odasi", "ofis-ticari-mobilya"],

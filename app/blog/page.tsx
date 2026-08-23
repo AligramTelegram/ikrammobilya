@@ -6,7 +6,7 @@ import { JsonLd, collectionPageSchema } from "@/lib/schema";
 import { BLOG_POSTS, SITE_NAME } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Blog | İkram Mobilya",
+  title: "Blog — Mobilya İmalatı Rehberi",
   description:
     "Özel ölçü mobilya, mutfak dolabı ve toptan üretim hakkında İkram Mobilya'dan bilgilendirici yazılar.",
   alternates: {

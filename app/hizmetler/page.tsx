@@ -6,7 +6,7 @@ import { JsonLd, collectionPageSchema } from "@/lib/schema";
 import { SEGMENTS, SITE_NAME } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Hizmetlerimiz | Özel Ölçü, Toptan, Kurumsal Üretim — İkram Mobilya",
+  title: "Hizmetlerimiz | Özel Ölçü, Toptan ve Kurumsal Mobilya Üretimi",
   description:
     "İkram Mobilya atölyesinin hizmet türleri: bireysel özel ölçü sipariş, mobilya mağazalarına toptan/fason üretim, otel/ofis/restoran için kurumsal proje üretimi.",
   alternates: {
@@ -27,7 +27,7 @@ export default function HizmetlerPage() {
       />
       <PageHeader
         kicker="Hizmetlerimiz"
-        title="Üç farklı ihtiyaca, tek atölye"
+        title="Her ihtiyaca, tek atölye"
         description="İkram Mobilya atölyesi bireysel, toptan ve kurumsal müşterilere özel üretim hizmeti verir."
         breadcrumbItems={[
           { name: SITE_NAME, path: "/" },

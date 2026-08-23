@@ -10,7 +10,7 @@ import {
 } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "İletişim | İkram Mobilya",
+  title: "İletişim | Çorum Mobilya Atölyesi",
   description:
     "İkram Mobilya atölyesi ile iletişime geçin. Çorum adresimiz, telefon ve WhatsApp bilgilerimiz.",
   alternates: {

@@ -115,7 +115,7 @@ export default function Hero() {
             href={BUSINESS_WHATSAPP}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-whatsapp px-7 py-3.5 text-sm font-medium tracking-wide text-white transition-transform hover:scale-[1.03]"
+            className="bg-gold px-7 py-3.5 text-sm font-medium tracking-wide text-[var(--ink)] transition-transform hover:scale-[1.03]"
           >
             WhatsApp&apos;tan Teklif Al
           </a>

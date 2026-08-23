@@ -4,7 +4,7 @@ import RevealSection from "@/components/RevealSection";
 import { BUSINESS_EMAIL, SITE_NAME } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Çerez Politikası | İkram Mobilya",
+  title: "Çerez Politikası",
   description:
     "İkram Mobilya web sitesinde kullanılan çerezler ve yönetim seçenekleri hakkında bilgi.",
   alternates: {

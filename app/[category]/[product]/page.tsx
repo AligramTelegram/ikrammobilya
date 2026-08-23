@@ -77,7 +77,7 @@ export default async function ProductPage({
           href={BUSINESS_WHATSAPP}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block bg-whatsapp px-7 py-3.5 text-sm font-medium tracking-wide text-white transition-transform hover:scale-[1.03]"
+          className="inline-block bg-gold px-7 py-3.5 text-sm font-medium tracking-wide text-[var(--ink)] transition-transform hover:scale-[1.03]"
         >
           Bu Model İçin Teklif Al
         </a>

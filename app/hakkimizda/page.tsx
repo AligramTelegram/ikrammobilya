@@ -4,7 +4,7 @@ import RevealSection from "@/components/RevealSection";
 import { SITE_NAME } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Hakkımızda | İkram Mobilya",
+  title: "Hakkımızda | Çorum Mobilya Atölyesi",
   description:
     "İkram Mobilya, Çorum'da özel ölçü mobilya imalatı yapan bir atölyedir. Bireysel, toptan ve kurumsal projelere üretim hizmeti verir.",
   alternates: {

@@ -5,7 +5,7 @@ import { SITE_NAME, SITE_URL } from "@/lib/site";
 import CorumMobilyaImalatiClient from "./CorumMobilyaImalatiClient";
 
 export const metadata: Metadata = {
-  title: "Çorum Mobilyacı, Marangoz ve Mobilya İmalatçısı | İkram Mobilya",
+  title: "Çorum Mobilyacı, Marangoz ve Mobilya İmalatçısı",
   description:
     "Çorum'da mobilyacı, marangoz veya mobilya imalatçısı arıyorsanız İkram Mobilya atölyesiyle iletişime geçin. Özel ölçü, toptan/fason ve kurumsal proje üretimi bir arada.",
   alternates: {
