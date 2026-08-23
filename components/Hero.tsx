@@ -91,7 +91,7 @@ export default function Hero() {
         >
           Ölçüsü size,
           <br />
-          <span className="font-script text-6xl font-bold text-gold-deep sm:text-7xl lg:text-8xl">
+          <span className="font-script text-5xl font-bold text-gold-deep sm:text-6xl lg:text-7xl">
             Zanaati bize ait.
           </span>
         </motion.h1>
