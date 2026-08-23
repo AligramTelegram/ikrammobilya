@@ -22,8 +22,8 @@ export default function Footer() {
             className="h-10 w-auto"
           />
           <p className="mt-4 max-w-xs text-sm text-white/60">
-            Çorum&apos;da özel ölçü mobilya imalatı — bireysel, toptan ve
-            kurumsal projelere üretim.
+            Çorum&apos;da özel ölçü mobilya imalatı, montaj ve dekorasyon
+            danışmanlığı: bireysel, toptan ve kurumsal projelere üretim.
           </p>
           <div className="gold-rule mt-6" />
         </div>
