@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Allura, Inter, Oswald } from "next/font/google";
+import { Dancing_Script, Inter, Oswald } from "next/font/google";
 import "./globals.css";
 import { JsonLd, localBusinessSchema } from "@/lib/schema";
 import { SITE_NAME, SITE_TITLE, SITE_URL } from "@/lib/site";
@@ -23,9 +23,9 @@ const inter = Inter({
   display: "swap",
 });
 
-const allura = Allura({
+const dancingScript = Dancing_Script({
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["600", "700"],
   variable: "--font-script",
   display: "swap",
 });
@@ -95,7 +95,7 @@ export default function RootLayout({
   return (
     <html
       lang="tr"
-      className={`${oswald.variable} ${inter.variable} ${allura.variable}`}
+      className={`${oswald.variable} ${inter.variable} ${dancingScript.variable}`}
     >
       <head>
         <JsonLd data={localBusinessSchema()} />
