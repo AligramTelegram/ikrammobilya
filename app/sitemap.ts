@@ -1,8 +1,6 @@
 import { MetadataRoute } from "next";
 import { BLOG_POSTS, CATEGORIES, SEGMENTS, SITE_URL } from "@/lib/site";
 
-const PLACEHOLDER_PRODUCTS = ["ornek-model"];
-
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [
     {
@@ -50,15 +48,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: category.priority,
     });
-
-    for (const product of PLACEHOLDER_PRODUCTS) {
-      entries.push({
-        url: `${SITE_URL}/${category.slug}/${product}`,
-        lastModified: new Date(),
-        changeFrequency: "monthly",
-        priority: Math.max(category.priority - 0.2, 0.4),
-      });
-    }
   }
 
   for (const segment of SEGMENTS) {

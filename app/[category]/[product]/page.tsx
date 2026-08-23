@@ -26,12 +26,16 @@ export async function generateMetadata({
   const category = getCategory(slug);
   if (!category || !PLACEHOLDER_PRODUCTS.includes(product)) return {};
 
-  const title = `${category.name} Örnek Model | Çorum — ${SITE_NAME}`;
+  const title = `${category.name} Örnek Model | Çorum`;
   const description = `${category.name} kategorisinde örnek model. Çorum İkram Mobilya atölyesinde özel ölçü üretilir, WhatsApp'tan teklif alın.`;
 
   return {
     title,
     description,
+    robots: {
+      index: false,
+      follow: true,
+    },
     alternates: {
       canonical: `/${category.slug}/${product}`,
     },
