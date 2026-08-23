@@ -82,9 +82,9 @@ export default async function CategoryPage({
         </div>
       </RevealSection>
 
-      <RevealSection className="border-t border-[var(--line)] bg-[var(--paper-warm)]">
+      <div className="border-t border-[var(--line)] bg-[var(--paper-warm)]">
         <PageArticleSections article={article} />
-      </RevealSection>
+      </div>
 
       <RevealSection className="mx-auto max-w-6xl px-6 pb-24 pt-20 lg:px-10">
         <p className="kicker">İlgili Hizmetler</p>
