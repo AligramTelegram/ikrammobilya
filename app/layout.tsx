@@ -80,6 +80,9 @@ export const metadata: Metadata = {
     apple: "/favicon.png?v=2",
     shortcut: "/favicon.png?v=2",
   },
+  verification: {
+    google: "ws4R3rTMTvGGYSCnOtRXn4_6MJsOVwUieyB1oHVf9pU",
+  },
 };
 
 export const viewport = {
