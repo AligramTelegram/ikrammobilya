@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHeader from "@/components/PageHeader";
@@ -8,6 +7,7 @@ import { JsonLd, collectionPageSchema, faqPageSchema } from "@/lib/schema";
 import { CATEGORIES, CATEGORY_GALLERY, SITE_NAME, getCategory, getSegment } from "@/lib/site";
 import { CATEGORY_CONTENT } from "@/lib/categoryContent";
 import PageArticleSections from "@/components/PageArticleSections";
+import CategoryGallery from "@/components/CategoryGallery";
 
 export function generateStaticParams() {
   return CATEGORIES.map((category) => ({ category: category.slug }));
@@ -68,25 +68,7 @@ export default async function CategoryPage({
           <h2 className="font-display mt-3 max-w-lg text-3xl sm:text-4xl">
             Atölyemizden {category.name.toLowerCase()} örnekleri
           </h2>
-          <div className="mt-10 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4 sm:grid sm:grid-cols-2 sm:gap-4 sm:overflow-visible sm:pb-0 lg:grid-cols-3">
-            {gallery.map((src, i) => (
-              <div
-                key={src}
-                className="relative aspect-[4/3] w-[78%] shrink-0 snap-center overflow-hidden border border-[var(--line)] sm:w-auto sm:shrink"
-              >
-                <Image
-                  src={src}
-                  alt={`${category.name} örnek çalışma ${i + 1}, İkram Mobilya atölyesi`}
-                  fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 78vw"
-                  className="object-cover transition-transform duration-700 ease-out hover:scale-110"
-                />
-              </div>
-            ))}
-          </div>
-          <p className="mt-3 text-xs text-black/40 sm:hidden">
-            Görselleri kaydırarak inceleyebilirsiniz →
-          </p>
+          <CategoryGallery images={gallery} categoryName={category.name} />
         </RevealSection>
       )}
 
