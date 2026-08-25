@@ -117,6 +117,32 @@ export function categoryImage(slug: CategorySlug): string {
   return `/kategori-${slug}.webp`;
 }
 
+export const CATEGORY_GALLERY: Partial<Record<CategorySlug, string[]>> = {
+  "mutfak-dolabi": [
+    "/galeri-mutfak-dolabi-1.webp",
+    "/galeri-mutfak-dolabi-2.webp",
+    "/galeri-mutfak-dolabi-3.webp",
+    "/galeri-mutfak-dolabi-4.webp",
+  ],
+  gardirop: [
+    "/galeri-gardirop-1.webp",
+    "/galeri-gardirop-2.webp",
+    "/galeri-gardirop-3.webp",
+    "/galeri-gardirop-4.webp",
+  ],
+  "yatak-odasi": [
+    "/galeri-yatak-odasi-1.webp",
+    "/galeri-yatak-odasi-2.webp",
+    "/galeri-yatak-odasi-3.webp",
+  ],
+  "oturma-grubu": [
+    "/galeri-oturma-grubu-1.webp",
+    "/galeri-oturma-grubu-2.webp",
+    "/galeri-oturma-grubu-3.webp",
+  ],
+  "yemek-odasi": ["/galeri-yemek-odasi-1.webp"],
+};
+
 export type SegmentSlug =
   | "bireysel-ozel-olcu-siparis"
   | "toptan-uretim"

@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHeader from "@/components/PageHeader";
 import RevealSection from "@/components/RevealSection";
 import { JsonLd, collectionPageSchema, faqPageSchema } from "@/lib/schema";
-import { CATEGORIES, SITE_NAME, getCategory, getSegment } from "@/lib/site";
+import { CATEGORIES, CATEGORY_GALLERY, SITE_NAME, getCategory, getSegment } from "@/lib/site";
 import { CATEGORY_CONTENT } from "@/lib/categoryContent";
 import PageArticleSections from "@/components/PageArticleSections";
 
@@ -30,8 +31,6 @@ export async function generateMetadata({
   };
 }
 
-const PLACEHOLDER_PRODUCTS = ["ornek-model"];
-
 export default async function CategoryPage({
   params,
 }: {
@@ -41,6 +40,7 @@ export default async function CategoryPage({
   const category = getCategory(slug);
   if (!category) notFound();
   const article = CATEGORY_CONTENT[category.slug];
+  const gallery = CATEGORY_GALLERY[category.slug];
 
   return (
     <main>
@@ -62,25 +62,30 @@ export default async function CategoryPage({
         ]}
       />
 
-      <RevealSection className="mx-auto max-w-6xl px-6 py-20 lg:px-10">
-        <p className="kicker">Modeller</p>
-        <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2">
-          {PLACEHOLDER_PRODUCTS.map((productSlug) => (
-            <Link
-              key={productSlug}
-              href={`/${category.slug}/${productSlug}`}
-              className="group border border-[var(--line)] p-7 transition-colors hover:border-gold"
-            >
-              <h3 className="font-display text-xl">
-                {category.name} Örnek Model
-              </h3>
-              <span className="gold-link mt-4 inline-block text-sm">
-                İncele →
-              </span>
-            </Link>
-          ))}
-        </div>
-      </RevealSection>
+      {gallery && gallery.length > 0 && (
+        <RevealSection className="mx-auto max-w-6xl px-6 py-20 lg:px-10">
+          <p className="kicker">Örnek Görseller</p>
+          <h2 className="font-display mt-3 max-w-lg text-3xl sm:text-4xl">
+            Atölyemizden {category.name.toLowerCase()} örnekleri
+          </h2>
+          <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {gallery.map((src, i) => (
+              <div
+                key={src}
+                className="relative aspect-[4/3] overflow-hidden border border-[var(--line)]"
+              >
+                <Image
+                  src={src}
+                  alt={`${category.name} örnek çalışma ${i + 1} — İkram Mobilya`}
+                  fill
+                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                  className="object-cover transition-transform duration-700 ease-out hover:scale-110"
+                />
+              </div>
+            ))}
+          </div>
+        </RevealSection>
+      )}
 
       <div className="border-t border-[var(--line)] bg-[var(--paper-warm)]">
         <PageArticleSections article={article} />
