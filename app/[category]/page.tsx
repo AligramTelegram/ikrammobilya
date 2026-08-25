@@ -68,22 +68,25 @@ export default async function CategoryPage({
           <h2 className="font-display mt-3 max-w-lg text-3xl sm:text-4xl">
             Atölyemizden {category.name.toLowerCase()} örnekleri
           </h2>
-          <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 flex snap-x snap-mandatory gap-4 overflow-x-auto pb-4 sm:grid sm:grid-cols-2 sm:gap-4 sm:overflow-visible sm:pb-0 lg:grid-cols-3">
             {gallery.map((src, i) => (
               <div
                 key={src}
-                className="relative aspect-[4/3] overflow-hidden border border-[var(--line)]"
+                className="relative aspect-[4/3] w-[78%] shrink-0 snap-center overflow-hidden border border-[var(--line)] sm:w-auto sm:shrink"
               >
                 <Image
                   src={src}
-                  alt={`${category.name} örnek çalışma ${i + 1} — İkram Mobilya`}
+                  alt={`${category.name} örnek çalışma ${i + 1}, İkram Mobilya atölyesi`}
                   fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 78vw"
                   className="object-cover transition-transform duration-700 ease-out hover:scale-110"
                 />
               </div>
             ))}
           </div>
+          <p className="mt-3 text-xs text-black/40 sm:hidden">
+            Görselleri kaydırarak inceleyebilirsiniz →
+          </p>
         </RevealSection>
       )}
 
