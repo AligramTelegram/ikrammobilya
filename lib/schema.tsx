@@ -46,6 +46,24 @@ export function localBusinessSchema() {
     ],
     openingHours: BUSINESS_HOURS,
     priceRange: "₺₺",
+    foundingDate: "1976",
+    founder: {
+      "@type": "Person",
+      name: "Fazlı Doğan",
+      jobTitle: "Kurucu Usta",
+    },
+    employee: [
+      {
+        "@type": "Person",
+        name: "Enes Doğan",
+        jobTitle: "İkinci Kuşak Usta",
+      },
+      {
+        "@type": "Person",
+        name: "Fatih Doğan",
+        jobTitle: "İkinci Kuşak Usta",
+      },
+    ],
     knowsAbout: CATEGORIES.map((c) => c.name),
     makesOffer: CATEGORIES.map((c) => ({
       "@type": "Offer",

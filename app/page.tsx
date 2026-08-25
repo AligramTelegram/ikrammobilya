@@ -71,7 +71,7 @@ export default function Home() {
                     alt=""
                     fill
                     sizes="112px"
-                    className="object-cover"
+                    className="object-cover scale-100 transition-transform duration-[1400ms] ease-out group-hover:scale-125"
                   />
                 </div>
 

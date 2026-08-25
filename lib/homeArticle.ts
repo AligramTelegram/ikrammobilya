@@ -132,42 +132,42 @@ export const HOME_ARTICLE_FAQ: HomeFaqItem[] = [
   {
     question: "Özel ölçü mobilya, hazır mobilyadan ne kadar farklı sürede teslim ediliyor?",
     answer:
-      "Hazır mobilyada teslimat genelde stoktan birkaç gün içinde olurken, özel ölçü üretimde önce ölçü alımı, sonra tasarım onayı, ardından üretim aşamaları var. Modelin karmaşıklığına göre değişse de ortalama olarak birkaç haftalık bir süreç öngörüyoruz, kesin tarihi ölçü alımından sonra netleştiriyoruz.",
+      "Hazır mobilyada teslimat genelde stoktan birkaç gün içinde olurken, özel ölçü üretimde önce ölçü alımı, sonra tasarım onayı, ardından üretim aşamaları var. Modelin karmaşıklığına göre değişse de ortalama olarak birkaç haftalık bir süreç öngörüyoruz, kesin tarihi ölçü alımından sonra netleştiriyoruz. Bu süre uzun görünse de, hazır bir mobilyanın evinize tam oturmama riskini ortadan kaldırıyor.",
   },
   {
     question: "Çorum dışından da sipariş kabul ediyor musunuz?",
     answer:
-      "Öncelikli hizmet bölgemiz Çorum merkez ve ilçeleri olsa da, toptan/fason üretim ve kurumsal projeler için Çorum dışından gelen talepleri de değerlendiriyoruz. Detaylar için WhatsApp üzerinden iletişime geçmeniz yeterli.",
+      "Öncelikli hizmet bölgemiz Çorum merkez ve ilçeleri olsa da, toptan/fason üretim ve kurumsal projeler için Çorum dışından gelen talepleri de değerlendiriyoruz. Detaylar için WhatsApp üzerinden iletişime geçmeniz yeterli. Bireysel siparişlerde ölçü alımı için mesafe önemli bir kısıt olabiliyor, bu yüzden önce konumu netleştirip ona göre yönlendirme yapıyoruz.",
   },
   {
     question: "Sadece montaj hizmeti alabilir miyim, mobilya sipariş etmem şart mı?",
     answer:
-      "Hayır, şart değil. Başka bir yerden aldığınız mobilyanın montajı için de bizi arayabilirsiniz. Bu, atölyemizin sunduğu bağımsız hizmetlerden biri.",
+      "Hayır, şart değil. Başka bir yerden aldığınız mobilyanın montajı için de bizi arayabilirsiniz. Bu, atölyemizin sunduğu bağımsız hizmetlerden biri; kendi ürettiğimiz mobilya kadar özenle, hangi markadan alındığına bakmadan kuruyoruz.",
   },
   {
     question: "Mutfak dolabı için hangi malzemeyi önerirsiniz?",
     answer:
-      "Bütçe ve kullanım yoğunluğuna göre değişir, ama genel olarak nemli alanlarda (evye, ocak çevresi) suya dayanıklı MDF lake ya da masif ahşap kaplama öneriyoruz. Kesin öneriyi mutfağınızı gördükten ve beklentilerinizi dinledikten sonra veriyoruz.",
+      "Bütçe ve kullanım yoğunluğuna göre değişir, ama genel olarak nemli alanlarda (evye, ocak çevresi) suya dayanıklı MDF lake ya da masif ahşap kaplama öneriyoruz. Kesin öneriyi mutfağınızı gördükten ve beklentilerinizi dinledikten sonra veriyoruz. Kuru bölgelerde laminat gibi daha ekonomik seçenekler de gayet iyi çalışıyor.",
   },
   {
     question: "Toptan üretim için minimum sipariş adedi var mı?",
     answer:
-      "Sabit bir minimum belirlemek yerine, mağazanızın ihtiyacına göre esnek bir kapasite planlaması yapıyoruz. İlk görüşmede kapasite ve teslim takvimini birlikte netleştiriyoruz.",
+      "Sabit bir minimum belirlemek yerine, mağazanızın ihtiyacına göre esnek bir kapasite planlaması yapıyoruz. İlk görüşmede kapasite ve teslim takvimini birlikte netleştiriyoruz. Yeni başlayan iş birliklerinde küçük bir deneme siparişiyle başlamak da tercih edilebiliyor.",
   },
   {
     question: "Fiyat teklifi almak için ne yapmam gerekiyor?",
     answer:
-      "En hızlı yol WhatsApp üzerinden bize yazmanız. İhtiyacınızı (kategori, yaklaşık ölçü, varsa referans görsel) paylaştığınızda size ön bir bilgilendirme yapıyor, gerekirse yerinde ölçü randevusu planlıyoruz.",
+      "En hızlı yol WhatsApp üzerinden bize yazmanız. İhtiyacınızı (kategori, yaklaşık ölçü, varsa referans görsel) paylaştığınızda size ön bir bilgilendirme yapıyor, gerekirse yerinde ölçü randevusu planlıyoruz. Net fiyat, ancak ölçü alındıktan ve malzeme netleştikten sonra verilebiliyor.",
   },
   {
     question: "Giyinme odası için sürgülü mü menteşeli kapak mı daha iyi?",
     answer:
-      "Dar odalarda sürgülü sistemler yer kazandırır çünkü kapak açılırken alan işgal etmez. Menteşeli kapaklar ise iç bölmeye daha rahat erişim sağlar. Kesin bir doğru yok, oda ölçünüze ve kullanım alışkanlığınıza göre birlikte karar veriyoruz.",
+      "Dar odalarda sürgülü sistemler yer kazandırır çünkü kapak açılırken alan işgal etmez. Menteşeli kapaklar ise iç bölmeye daha rahat erişim sağlar. Kesin bir doğru yok, oda ölçünüze ve kullanım alışkanlığınıza göre birlikte karar veriyoruz. Sürgülü sistemlerde ray kalitesi önemli, biz bu yüzden orta-üst segment ray tercih ediyoruz.",
   },
   {
     question: "Kurumsal proje teslim süresi ne kadar sürüyor?",
     answer:
-      "Otel, ofis ve restoran projeleri kapsam ve adete göre değişir. Küçük ölçekli bir ofis mobilyası birkaç hafta içinde tamamlanabilirken, çok odalı bir otel projesi daha uzun sürebilir. İlk görüşmede net bir takvim paylaşıyoruz.",
+      "Otel, ofis ve restoran projeleri kapsam ve adete göre değişir. Küçük ölçekli bir ofis mobilyası birkaç hafta içinde tamamlanabilirken, çok odalı bir otel projesi daha uzun sürebilir. İlk görüşmede net bir takvim paylaşıyoruz. Açılış tarihi sabitse, üretim planını o tarihe göre geriye doğru kurup takvime bağlı kalıyoruz.",
   },
 ];
 

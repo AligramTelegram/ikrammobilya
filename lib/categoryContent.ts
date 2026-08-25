@@ -70,7 +70,8 @@ export const CATEGORY_CONTENT: Record<CategorySlug, PageArticle> = {
         heading: "Çorum'da mobilyacı, marangoz ve mutfak dolabı imalatçısı arayışında ilk soracağınız sorular",
         paragraphs: [
           "Çorum'da 'mutfak dolabı yaptıracak mobilyacı' ya da 'güvenilir marangoz' araştıran biri genelde birkaç işletmeyi karşılaştırıyor. Bu karşılaştırmada sormanız gereken sorular net: ölçü alımı ücretli mi, teslim süresi kaç gün, kullanılan MDF suya dayanıklı mı, menteşe ve ray markası ne, garanti süresi var mı? Bu soruların cevabını net ve hızlı veremeyen bir işletmeyle çalışmak, üretim sürecinde belirsizlik anlamına geliyor. Biz her sorunun cevabını ilk görüşmede açıkça veriyoruz, çünkü şeffaf bir süreç hem bizim hem müşterinin işini kolaylaştırıyor.",
-          "Bir diğer önemli nokta da atölyenin fiziksel olarak görülebilir olması. Çorum'daki atölyemizi ziyaret edip devam eden üretimleri, kullanılan malzemeyi yerinde görebilirsiniz; bu, sadece katalog üzerinden karar vermekten çok daha güven verici bir deneyim."
+          "Bir diğer önemli nokta da atölyenin fiziksel olarak görülebilir olması. Çorum'daki atölyemizi ziyaret edip devam eden üretimleri, kullanılan malzemeyi yerinde görebilirsiniz; bu, sadece katalog üzerinden karar vermekten çok daha güven verici bir deneyim.",
+          "Mutfak dolabı imalatçısı olarak yaptığımız işin sadece üretimle bitmediğini de ekleyelim: talep eden müşterilerimize, kendi ürettiğimiz dolapların yanı sıra farklı yerden alınmış hazır mutfak dolabı sistemlerinin montaj ustası hizmetini de veriyoruz."
         ]
       },
     ],
@@ -78,17 +79,17 @@ export const CATEGORY_CONTENT: Record<CategorySlug, PageArticle> = {
       {
         question: "Çorum'da özel ölçü mutfak dolabı yaptırmanın süresi ne kadar?",
         answer:
-          "Ölçü alımından montaja kadar ortalama 15-25 gün sürüyor. Bu süre mutfağın büyüklüğüne, seçilen malzemeye ve atölyenin o anki üretim yoğunluğuna göre değişebiliyor.",
+          "Ölçü alımından montaja kadar ortalama 15-25 gün sürüyor. Bu süre mutfağın büyüklüğüne, seçilen malzemeye ve atölyenin o anki üretim yoğunluğuna göre değişebiliyor. Yoğun dönemlerde (yaz sonu, yılbaşı öncesi gibi) bu süre birkaç gün uzayabilir; sipariş verirken güncel teslim tarihini net olarak paylaşıyoruz.",
       },
       {
         question: "Hazır beyaz eşyalarım var, dolap onlara göre mi üretiliyor?",
         answer:
-          "Evet. Ölçü alımı sırasında fırın, bulaşık makinesi, buzdolabı gibi beyaz eşyaların model ve ölçüleri de not ediliyor, dolap tasarımı bu eşyalara göre yapılıyor.",
+          "Evet. Ölçü alımı sırasında fırın, bulaşık makinesi, buzdolabı gibi beyaz eşyaların model ve ölçüleri de not ediliyor, dolap tasarımı bu eşyalara göre yapılıyor. Beyaz eşyayı henüz almadıysanız, marka ve model netleşene kadar üretim çizimini bekletmenizi öneriyoruz; aksi halde tahmini ölçüyle ilerlemek zorunda kalıyoruz.",
       },
       {
         question: "Sadece kapak değişimi (yenileme) yapıyor musunuz?",
         answer:
-          "Mevcut dolap gövdesi sağlamsa kapak ve tezgah yenileme de yapıyoruz; bu, komple dolap değişiminden daha ekonomik bir seçenek oluyor.",
+          "Mevcut dolap gövdesi sağlamsa kapak ve tezgah yenileme de yapıyoruz; bu, komple dolap değişiminden daha ekonomik bir seçenek oluyor. Yerinde bir inceleme yaparak gövdenin gerçekten sağlam olup olmadığını değerlendiriyoruz; nem almış veya şişmiş bir gövdede yenileme yerine komple değişim öneriyoruz, çünkü kısa vadede aynı sorun tekrarlanır.",
       },
     ],
   },
@@ -136,6 +137,7 @@ export const CATEGORY_CONTENT: Record<CategorySlug, PageArticle> = {
         heading: "Gardırop yenileme mi, komple değişim mi?",
         paragraphs: [
           "Mevcut gardırobun iskeleti sağlamsa, sadece kapak ve iç düzenleme yenilemek komple değişimden çok daha ekonomik bir seçenek. Özellikle 90'lı ve 2000'li yılların başında yapılmış konutlarda gardırop gövdesi genelde sağlam kalır, ama kapak menteşeleri ve iç raf düzeni günümüz ihtiyaçlarına göre eskimiş olabilir. Bu durumlarda atölyeye gelip mevcut gövdenin ölçüsünü ve durumunu değerlendirdikten sonra yenileme mi yoksa komple üretim mi daha mantıklı, açıkça söylüyoruz; her zaman en pahalı seçeneği önermiyoruz.",
+          "Çorum'da mobilya imalatçısı ararken çoğu kişi sadece üretimi düşünüyor, ama montajı unutuyor. Biz bir mobilya imalatçısı olarak kendi ürettiğimiz gardırop ve vestiyerlerin yanı sıra, başka firmalardan alınmış hazır sistemlerin gardırop montaj ustası hizmetini de veriyoruz.",
         ],
       },
       {
@@ -168,17 +170,17 @@ export const CATEGORY_CONTENT: Record<CategorySlug, PageArticle> = {
       {
         question: "Gardırop ile vestiyer arasındaki fark nedir?",
         answer:
-          "Gardırop genelde yatak odasında kıyafet saklamak için kapalı, büyük hacimli bir dolaptır. Vestiyer ise giriş veya ayrı bir odada, daha açık raflı ve dış giyim eşyalarına yönelik bir sistemdir.",
+          "Gardırop genelde yatak odasında kıyafet saklamak için kapalı, büyük hacimli bir dolaptır. Vestiyer ise giriş veya ayrı bir odada, daha açık raflı ve dış giyim eşyalarına yönelik bir sistemdir. Portmanto ise ikisinden daha küçük, genelde antreye konan birkaç askılı mini bir çözüm; hangisine ihtiyacınız olduğunu ilk görüşmede birlikte netleştiriyoruz.",
       },
       {
         question: "Sürgülü kapak mı, menteşeli kapak mı daha uygun?",
         answer:
-          "Dar odalarda ve açılma payı kısıtlı yerlerde sürgülü kapak daha pratik. Geniş odalarda menteşeli kapak, iç hacme daha kolay erişim sağladığı için tercih edilebilir.",
+          "Dar odalarda ve açılma payı kısıtlı yerlerde sürgülü kapak daha pratik. Geniş odalarda menteşeli kapak, iç hacme daha kolay erişim sağladığı için tercih edilebilir. Sürgülü sistemlerde ray kalitesi önemli; ucuz raylarda zamanla takılma sorunu yaşanabildiği için biz orta-üst segment ray kullanıyoruz.",
       },
       {
         question: "Giyinme odası projesi için ayrı bir ölçü randevusu gerekiyor mu?",
         answer:
-          "Evet, giyinme odası tasarımı odanın tamamını kapsadığı için standart gardırop ölçümünden daha detaylı bir keşif yapılıyor.",
+          "Evet, giyinme odası tasarımı odanın tamamını kapsadığı için standart gardırop ölçümünden daha detaylı bir keşif yapılıyor. Bu keşifte aynanın konumu, ışık kaynağı ve oda içindeki hareket alanı da değerlendiriliyor, bu yüzden randevu süresi normal gardırop ölçümüne göre biraz daha uzun sürüyor.",
       },
     ],
   },
@@ -256,7 +258,8 @@ export const CATEGORY_CONTENT: Record<CategorySlug, PageArticle> = {
         heading: "Yatak odası mobilyasında iki kişilik kullanım senaryosu",
         paragraphs: [
           "Çift kullanımı düşünülen yatak odalarında simetri genelde tercih edilen bir düzen: iki komodin, yatağın iki yanında eşit boyutta ve eşit yükseklikte konumlanıyor. Ancak farklı uyku düzenine sahip çiftlerde (biri erken yatan, diğeri geç kalkan gibi) asimetrik bir çözüm de düşünülebiliyor; örneğin bir tarafta okuma lambası için ekstra raf, diğer tarafta sade bir komodin. Bu tip kişiselleştirilmiş kararları, standart bir set satmak yerine çiftin gerçek alışkanlıklarını dinleyerek şekillendiriyoruz.",
-          "Şifonyer paylaşımı da sık sorulan bir konu; iki kişinin kıyafetini tek bir şifonyerde dengeli paylaştırmak için çekmece sayısını ve boyutunu baştan bu ihtiyaca göre planlıyoruz, sonradan ek çekmece eklemek genelde estetik bütünlüğü bozuyor."
+          "Şifonyer paylaşımı da sık sorulan bir konu; iki kişinin kıyafetini tek bir şifonyerde dengeli paylaştırmak için çekmece sayısını ve boyutunu baştan bu ihtiyaca göre planlıyoruz, sonradan ek çekmece eklemek genelde estetik bütünlüğü bozuyor.",
+          "Çorum'da yatak odası mobilyası için mobilya montaj ustası arayan müşterilere de yardımcı oluyoruz; kendi ürettiğimiz setlerin yanı sıra başka markalardan alınmış yatak odası takımlarının montajını da yapıyoruz."
         ]
       },
     ],
@@ -264,17 +267,17 @@ export const CATEGORY_CONTENT: Record<CategorySlug, PageArticle> = {
       {
         question: "Yatak odası takımını ayrı ayrı parça olarak da sipariş edebilir miyim?",
         answer:
-          "Evet, sadece komodin veya sadece şifonyer gibi tek parça siparişler de alıyoruz, komple set şartı yok.",
+          "Evet, sadece komodin veya sadece şifonyer gibi tek parça siparişler de alıyoruz, komple set şartı yok. Tek parça siparişte bile, mevcut mobilyanızla renk/doku uyumunu korumaya çalışıyoruz; bunun için fotoğraf veya numune paylaşmanız yeterli.",
       },
       {
         question: "Mevcut yatak odası mobilyamın rengiyle uyumlu yeni parça yaptırabilir miyim?",
         answer:
-          "Mevcut parçanın fotoğrafını veya bir örneğini görürsek en yakın ton ve doku eşleşmesini sağlamaya çalışıyoruz; birebir aynı sonuç bazı eski modellerde garanti edilemiyor.",
+          "Mevcut parçanın fotoğrafını veya bir örneğini görürsek en yakın ton ve doku eşleşmesini sağlamaya çalışıyoruz; birebir aynı sonuç bazı eski modellerde garanti edilemiyor. Özellikle uzun süre önce üretilmiş, artık üretilmeyen malzemelerde tam eşleşme zor olabiliyor; bu durumda en yakın alternatifi önerip son kararı size bırakıyoruz.",
       },
       {
         question: "Toptan sipariş için minimum adet var mı?",
         answer:
-          "Minimum adet, ürün tipine ve malzemeye göre değişiyor; net rakam için mağazanızın ihtiyacını WhatsApp üzerinden paylaşmanız yeterli.",
+          "Minimum adet, ürün tipine ve malzemeye göre değişiyor; net rakam için mağazanızın ihtiyacını WhatsApp üzerinden paylaşmanız yeterli. Küçük hacimli ilk denemelerde de çalışıyoruz; kalite ve teslim performansımızı görmeden büyük hacimli bir siparişe geçmek istemeyen mağazalar için bu makul bir başlangıç oluyor.",
       },
     ],
   },
@@ -351,7 +354,8 @@ export const CATEGORY_CONTENT: Record<CategorySlug, PageArticle> = {
         heading: "Oturma grubunda kol ve sırt yüksekliği neden fark yaratır",
         paragraphs: [
           "Koltuğun kol yüksekliği ve sırt açısı, oturan kişinin boyuna ve kullanım şekline göre konfor algısını doğrudan etkiliyor. Düşük kollu, geniş oturma yüzeyli koltuklar rahat uzanmaya uygunken, yüksek sırtlı modeller daha dik oturuşu destekliyor ve okuma, çalışma gibi aktiviteler için daha uygun. Ailede farklı boy ve kullanım alışkanlığına sahip bireyler varsa, köşe koltuk ile berjeri bilinçli olarak farklı yükseklikte tasarlayarak her kullanıcıya uygun bir oturma noktası yaratabiliyoruz.",
-          "Minder sertliği de benzer şekilde kişisel bir tercih; bazı müşteriler yumuşak, gömülen bir oturuş isterken bazıları daha destekleyici, sıkı bir dolgu tercih ediyor. Sipariş öncesi numune üzerinde oturarak bu tercihi netleştirmenizi öneriyoruz."
+          "Minder sertliği de benzer şekilde kişisel bir tercih; bazı müşteriler yumuşak, gömülen bir oturuş isterken bazıları daha destekleyici, sıkı bir dolgu tercih ediyor. Sipariş öncesi numune üzerinde oturarak bu tercihi netleştirmenizi öneriyoruz.",
+          "Büyük bir köşe koltuk aldıktan sonra montaj ustası ihtiyacı da çıkabiliyor; özellikle modüler sistemlerde parçaların doğru birleştirilmesi önemli. Bu konuda da Çorum içinde destek veriyoruz."
         ]
       },
     ],
@@ -359,17 +363,17 @@ export const CATEGORY_CONTENT: Record<CategorySlug, PageArticle> = {
       {
         question: "Köşe koltuğun yönünü (sağ/sol) sonradan değiştirebilir miyim?",
         answer:
-          "Modüler üretimlerde bazı köşe koltuklarda modüller yer değiştirilebiliyor, ancak bunun mümkün olup olmadığı üretim tipine göre değişiyor; sipariş öncesi bu ihtiyacı belirtmeniz en sağlıklısı.",
+          "Modüler üretimlerde bazı köşe koltuklarda modüller yer değiştirilebiliyor, ancak bunun mümkün olup olmadığı üretim tipine göre değişiyor; sipariş öncesi bu ihtiyacı belirtmeniz en sağlıklısı. İleride ev değiştirme ihtimaliniz varsa, baştan modüler bir sistem tercih etmenizi öneriyoruz; bu, yön değişikliğini çok daha kolay hale getiriyor.",
       },
       {
         question: "Eski koltuğumun kumaşını yeniletebilir misiniz?",
         answer:
-          "Evet, iskelet ve sünger sağlamsa döşeme yenileme (kumaş değişimi) hizmeti de veriyoruz, bu genelde komple yeni koltuktan daha ekonomik oluyor.",
+          "Evet, iskelet ve sünger sağlamsa döşeme yenileme (kumaş değişimi) hizmeti de veriyoruz, bu genelde komple yeni koltuktan daha ekonomik oluyor. Yenileme öncesi süngeri de kontrol ediyoruz; çökme varsa kumaşla birlikte sünger değişimini de öneriyoruz, aksi halde yeni kumaş altında eski sorun devam eder.",
       },
       {
         question: "Berjeri koltuk takımıyla aynı kumaştan mı üretmek gerekir?",
         answer:
-          "Gerekmez, kontrast bir kumaşla da üretilebilir; bazı müşteriler bilinçli olarak berjeri farklı renkte tercih ediyor, kararı tamamen size bırakıyoruz.",
+          "Gerekmez, kontrast bir kumaşla da üretilebilir; bazı müşteriler bilinçli olarak berjeri farklı renkte tercih ediyor, kararı tamamen size bırakıyoruz. Kontrast tercih edilecekse aynı renk ailesinden ama farklı tonda bir kumaş seçmenizi öneriyoruz; tamamen alakasız bir renk salonun bütünlüğünü bozabiliyor.",
       },
     ],
   },
@@ -452,7 +456,8 @@ export const CATEGORY_CONTENT: Record<CategorySlug, PageArticle> = {
       {
         heading: "Yemek odası setinin diğer mobilyalarla uyumu",
         paragraphs: [
-          "Yemek odası genelde salonla aynı açık alanda yer aldığı için, oturma grubuyla görsel bir bütünlük kurması gerekiyor. Aynı ahşap tonunu veya aynı metal detayı iki alanda da tekrarlamak, mekanı parçalı değil tek bir bütün gibi hissettiriyor. Farklı bir tarz denemek isteyen müşterilere de kontrollü bir kontrast öneriyoruz; örneğin sıcak ahşap bir yemek masasının yanında daha sade, mat bir oturma grubu dengeyi bozmadan çeşitlilik katabiliyor."
+          "Yemek odası genelde salonla aynı açık alanda yer aldığı için, oturma grubuyla görsel bir bütünlük kurması gerekiyor. Aynı ahşap tonunu veya aynı metal detayı iki alanda da tekrarlamak, mekanı parçalı değil tek bir bütün gibi hissettiriyor. Farklı bir tarz denemek isteyen müşterilere de kontrollü bir kontrast öneriyoruz; örneğin sıcak ahşap bir yemek masasının yanında daha sade, mat bir oturma grubu dengeyi bozmadan çeşitlilik katabiliyor.",
+          "Yemek odası mobilyanızı başka bir mobilyacıdan aldıysanız da montaj ustası hizmetimizden faydalanabilirsiniz; masa, sandalye ve vitrin kurulumunu Çorum içinde biz üstleniyoruz."
         ]
       },
     ],
@@ -460,17 +465,17 @@ export const CATEGORY_CONTENT: Record<CategorySlug, PageArticle> = {
       {
         question: "Uzatmalı masa mekanizması zamanla bozulur mu?",
         answer:
-          "Kaliteli bir mekanizma doğru kullanıldığında uzun yıllar sorunsuz çalışıyor. Biz standart üretimde orta-üst segment mekanizma kullanıyoruz, ucuz sistemlerde görülen gevşeme sorununu bu şekilde önlüyoruz.",
+          "Kaliteli bir mekanizma doğru kullanıldığında uzun yıllar sorunsuz çalışıyor. Biz standart üretimde orta-üst segment mekanizma kullanıyoruz, ucuz sistemlerde görülen gevşeme sorununu bu şekilde önlüyoruz. Mekanizmayı yılda bir kez hafifçe yağlamanızı öneriyoruz; bu basit bakım, açılır kapanır hareketi uzun süre sorunsuz tutuyor.",
       },
       {
         question: "Sandalyeleri masadan bağımsız, farklı sayıda sipariş edebilir miyim?",
         answer:
-          "Evet, sandalye adedi tamamen ihtiyacınıza göre belirlenir, masayla birebir eşleşmesi şart değil.",
+          "Evet, sandalye adedi tamamen ihtiyacınıza göre belirlenir, masayla birebir eşleşmesi şart değil. İsterseniz aynı model için farklı renklerde sandalye de üretebiliyoruz; bazı müşteriler bilinçli olarak karışık renk düzenini tercih ediyor.",
       },
       {
         question: "Vitrin içine aydınlatma sonradan eklenebilir mi?",
         answer:
-          "Mevcut bir vitrine sonradan LED aydınlatma eklemek mümkün, ancak en temiz sonucu üretim aşamasında planlamak veriyor.",
+          "Mevcut bir vitrine sonradan LED aydınlatma eklemek mümkün, ancak en temiz sonucu üretim aşamasında planlamak veriyor. Sonradan ekleme yapılacaksa kablo yönlendirmesi görünür kalabilir; bu yüzden mümkünse aydınlatma kararını sipariş öncesi vermenizi öneriyoruz.",
       },
     ],
   },
@@ -554,7 +559,8 @@ export const CATEGORY_CONTENT: Record<CategorySlug, PageArticle> = {
         heading: "Ofis mobilyasında depolama ve arşiv çözümleri",
         paragraphs: [
           "Kağıt evrak kullanımı azalsa da, birçok işletme hâlâ belirli belgeleri fiziksel olarak saklamak zorunda. Dosya dolabı ve arşiv ünitelerini ofis düzenine göre gizli (çalışma alanından ayrı bir odada) ya da entegre (çalışma masasına bitişik) olarak tasarlayabiliyoruz. Kilitli çekmece ve dolap seçenekleri, hassas belgelerin güvenliği için tercih ediliyor; bu detayı özellikle finans ve hukuk büroları sık talep ediyor.",
-          "Toplantı odası mobilyasında da benzer bir esneklik sunuyoruz: sabit büyük bir toplantı masası yerine, ihtiyaca göre birleştirilip ayrılabilen modüler masa sistemleri küçük ofislerde çok işlevli bir alan yaratıyor."
+          "Toplantı odası mobilyasında da benzer bir esneklik sunuyoruz: sabit büyük bir toplantı masası yerine, ihtiyaca göre birleştirilip ayrılabilen modüler masa sistemleri küçük ofislerde çok işlevli bir alan yaratıyor.",
+          "Çorum'da ofis ve ticari mobilya konusunda mobilya imalatçısı arayan işletmelere hem üretim hem montaj ustası hizmeti bir arada sunuyoruz; ayrı ayrı firmalarla uğraşmak yerine tek bir muhatapla süreci yürütebiliyorsunuz."
         ]
       },
     ],
@@ -562,17 +568,17 @@ export const CATEGORY_CONTENT: Record<CategorySlug, PageArticle> = {
       {
         question: "Küçük bir kafe için de sipariş alıyor musunuz, yoksa sadece büyük projeler mi?",
         answer:
-          "Hem büyük otel/restoran projeleri hem de tek bir kafe veya küçük ofis için mobilya üretiyoruz, proje büyüklüğü fark etmiyor.",
+          "Hem büyük otel/restoran projeleri hem de tek bir kafe veya küçük ofis için mobilya üretiyoruz, proje büyüklüğü fark etmiyor. Küçük bir siparişte de aynı malzeme kalitesi ve numune onay sürecini uyguluyoruz; ölçek küçülse de üretim standardımız değişmiyor.",
       },
       {
         question: "Otel projesinde numune onayı zorunlu mu?",
         answer:
-          "Zorunlu değil ama şiddetle öneriyoruz; çok odalı projelerde ilk numunenin onaylanması, seri üretimde sürpriz sorunları önlüyor.",
+          "Zorunlu değil ama şiddetle öneriyoruz; çok odalı projelerde ilk numunenin onaylanması, seri üretimde sürpriz sorunları önlüyor. Numune atlanıp doğrudan seri üretime geçilirse, küçük bir tasarım hatası bile onlarca parçaya yayılabilir; bu riski almamanızı tavsiye ediyoruz.",
       },
       {
         question: "Mevcut ofis mobilyalarımızın montajını da yapıyor musunuz?",
         answer:
-          "Evet, kendi ürettiğimiz mobilyaların yanı sıra farklı markalardan alınmış ofis mobilyalarının montajını da ayrı bir hizmet olarak sunuyoruz.",
+          "Evet, kendi ürettiğimiz mobilyaların yanı sıra farklı markalardan alınmış ofis mobilyalarının montajını da ayrı bir hizmet olarak sunuyoruz. Ofis taşınmalarında birden fazla ekiple aynı anda çalışarak montaj süresini kısaltabiliyoruz, böylece işletmenin kapalı kalma süresi en aza iniyor.",
       },
     ],
   },
@@ -660,17 +666,18 @@ export const SEGMENT_CONTENT: Record<SegmentSlug, PageArticle> = {
     faq: [
       {
         question: "Ölçü alımı ücretli mi?",
-        answer: "Hayır, Çorum merkez için ölçü alımı ücretsiz.",
+        answer:
+          "Hayır, Çorum merkez için ölçü alımı ücretsiz. Merkez dışındaki köy ve beldeler için de talep üzerine ölçü alımı yapıyoruz, sadece randevu tarihini biraz önceden netleştirmenizi rica ediyoruz.",
       },
       {
         question: "Sadece tek bir mobilya (örneğin tek bir dolap) sipariş edebilir miyim?",
         answer:
-          "Evet, komple bir oda şartı yok; tek parça sipariş de alıyoruz.",
+          "Evet, komple bir oda şartı yok; tek parça sipariş de alıyoruz. Birçok müşterimiz bütçesine göre önce en gerekli parçayı yaptırıp, kalanını zamana yayarak tamamlıyor; bu da tamamen normal bir yaklaşım.",
       },
       {
         question: "Kendi getirdiğim bir görsele göre üretim yapabilir misiniz?",
         answer:
-          "Evet, referans görseli bize gösterirseniz en yakın uyumu sağlayacak şekilde tasarım ve malzeme önerisi sunuyoruz.",
+          "Evet, referans görseli bize gösterirseniz en yakın uyumu sağlayacak şekilde tasarım ve malzeme önerisi sunuyoruz. Görseldeki tasarım kendi mekanınıza birebir uymayabilir; bu durumda ölçünüze göre en yakın uyarlamayı birlikte belirliyoruz.",
       },
     ],
   },
@@ -767,17 +774,17 @@ export const SEGMENT_CONTENT: Record<SegmentSlug, PageArticle> = {
       {
         question: "Minimum sipariş adedi var mı?",
         answer:
-          "Ürün tipine göre değişiyor; net rakam için mağazanızın ihtiyacını WhatsApp üzerinden bize iletmeniz yeterli.",
+          "Ürün tipine göre değişiyor; net rakam için mağazanızın ihtiyacını WhatsApp üzerinden bize iletmeniz yeterli. Yeni başlayan iş birliklerinde küçük hacimli bir deneme siparişiyle başlamak da mümkün, minimum adet konusunda katı değiliz.",
       },
       {
         question: "Kendi tasarımımız var, ona göre üretim yapabilir misiniz?",
         answer:
-          "Evet, mağazanızın kendi teknik çizimi veya numunesi varsa ona göre üretim yapıyoruz.",
+          "Evet, mağazanızın kendi teknik çizimi veya numunesi varsa ona göre üretim yapıyoruz. Çizim yoksa, sözlü tarif ve referans görsellerinden yola çıkarak birlikte bir teknik çizim de hazırlayabiliyoruz.",
       },
       {
         question: "Şehir dışına teslimat yapıyor musunuz?",
         answer:
-          "Evet, Çorum dışına da anlaşmalı nakliye firmalarıyla teslimat sağlıyoruz.",
+          "Evet, Çorum dışına da anlaşmalı nakliye firmalarıyla teslimat sağlıyoruz. Nakliye süresi ve maliyeti mesafeye göre değişiyor, bu bilgiyi üretim teklifiyle birlikte önceden netleştiriyoruz.",
       },
     ],
   },
@@ -874,17 +881,17 @@ export const SEGMENT_CONTENT: Record<SegmentSlug, PageArticle> = {
       {
         question: "Küçük bir restoran için de proje alıyor musunuz?",
         answer:
-          "Evet, proje büyüklüğü otel ölçeğinde olmak zorunda değil; tek bir kafe veya küçük bir ofis için de kurumsal üretim yapıyoruz.",
+          "Evet, proje büyüklüğü otel ölçeğinde olmak zorunda değil; tek bir kafe veya küçük bir ofis için de kurumsal üretim yapıyoruz. Küçük projelerde de aynı numune onay sürecini uyguluyoruz, sadece üretim takvimi daha kısa sürede tamamlanıyor.",
       },
       {
         question: "Mekanın tasarımını siz mi yapıyorsunuz, yoksa hazır bir tasarım mı gerekiyor?",
         answer:
-          "İkisi de mümkün; hazır bir mimari/dekorasyon planınız varsa ona göre üretim yapıyoruz, yoksa dekorasyon danışmanlığı hizmetimizle birlikte planlama sürecine de destek oluyoruz.",
+          "İkisi de mümkün; hazır bir mimari/dekorasyon planınız varsa ona göre üretim yapıyoruz, yoksa dekorasyon danışmanlığı hizmetimizle birlikte planlama sürecine de destek oluyoruz. İki durumda da nihai üretim çizimini onayınıza sunuyoruz, üretim ancak onay sonrası başlıyor.",
       },
       {
         question: "Teslimat tek seferde mi yapılıyor?",
         answer:
-          "Genelde hayır; büyük projelerde teslimat kat kat veya alan alan, mekanın açılış sürecine uygun partiler halinde yapılıyor.",
+          "Genelde hayır; büyük projelerde teslimat kat kat veya alan alan, mekanın açılış sürecine uygun partiler halinde yapılıyor. Bu bölümlü teslimat, mekanın bir kısmının erken hizmete açılmasını da mümkün kılıyor.",
       },
     ],
   },
@@ -981,17 +988,17 @@ export const SEGMENT_CONTENT: Record<SegmentSlug, PageArticle> = {
       {
         question: "Sadece IKEA mobilyası mı monte ediyorsunuz?",
         answer:
-          "Hayır, herhangi bir markadan alınmış mobilyanın montajını yapıyoruz, sadece IKEA ile sınırlı değil.",
+          "Hayır, herhangi bir markadan alınmış mobilyanın montajını yapıyoruz, sadece IKEA ile sınırlı değil. Yerli veya ithal, hangi markadan olursa olsun, montaj talimatı ve bağlantı sistemi elimize ulaştığında ekibimiz kurulumu üstlenebiliyor.",
       },
       {
         question: "Montaj sırasında eksik parça çıkarsa ne oluyor?",
         answer:
-          "Eksik parça üreticiden/satıcıdan tedarik edilmesi gereken bir durum; biz mümkünse yerinde alternatif çözüm üretmeye çalışıyoruz, ama garanti kapsamı satıcıya ait.",
+          "Eksik parça üreticiden/satıcıdan tedarik edilmesi gereken bir durum; biz mümkünse yerinde alternatif çözüm üretmeye çalışıyoruz, ama garanti kapsamı satıcıya ait. Atölyemiz olduğu için bazı basit eksik parçaları (vida, dübel, küçük bağlantı elemanı) yerinde tedarik edip montajı yarım bırakmadan tamamlayabiliyoruz.",
       },
       {
         question: "Eski mobilyanın sökümünü de yapıyor musunuz?",
         answer:
-          "Evet, yeni mobilya montajından önce eski mobilyanın sökümü de talep üzerine hizmet kapsamına dahil ediliyor.",
+          "Evet, yeni mobilya montajından önce eski mobilyanın sökümü de talep üzerine hizmet kapsamına dahil ediliyor. Sökülen mobilyanın taşınması veya uzaklaştırılması ayrı bir kalem; bu ihtiyacınız varsa randevu öncesi belirtmeniz yeterli.",
       },
     ],
   },
@@ -1086,17 +1093,17 @@ export const SEGMENT_CONTENT: Record<SegmentSlug, PageArticle> = {
       {
         question: "Dekorasyon danışmanlığı ücretli mi?",
         answer:
-          "Danışmanlık kapsamı ve mekan büyüklüğüne göre değişiyor; küçük planlama görüşmeleri genelde mobilya siparişine dahil, daha kapsamlı projelerde ayrı ücretlendirme yapılabiliyor.",
+          "Danışmanlık kapsamı ve mekan büyüklüğüne göre değişiyor; küçük planlama görüşmeleri genelde mobilya siparişine dahil, daha kapsamlı projelerde ayrı ücretlendirme yapılabiliyor. Net kapsam ve varsa ücreti, ilk görüşmede mekanınızı değerlendirdikten sonra açıkça paylaşıyoruz.",
       },
       {
         question: "Sadece mobilya değil, boya ve aydınlatma konusunda da öneri alabilir miyim?",
         answer:
-          "Evet, renk ve aydınlatma önerisi de danışmanlık kapsamına dahil, ancak boya/elektrik uygulamasını biz değil anlaşmalı olduğumuz ustalar yapıyor.",
+          "Evet, renk ve aydınlatma önerisi de danışmanlık kapsamına dahil, ancak boya/elektrik uygulamasını biz değil anlaşmalı olduğumuz ustalar yapıyor. Böylece tek bir plan üzerinden hem mobilya hem boya hem aydınlatma kararı tutarlı ilerliyor.",
       },
       {
         question: "Danışmanlık sonrası üretim başka bir atölyeden alınabilir mi?",
         answer:
-          "Evet, plan ve öneri size ait olur, üretimi istediğiniz yerden yaptırabilirsiniz; ancak aynı atölyeden devam etmek süreci daha hızlı ve tutarlı kılıyor.",
+          "Evet, plan ve öneri size ait olur, üretimi istediğiniz yerden yaptırabilirsiniz; ancak aynı atölyeden devam etmek süreci daha hızlı ve tutarlı kılıyor, çünkü planı çizen ekip üretimin detaylarını da baştan biliyor.",
       },
     ],
   },
