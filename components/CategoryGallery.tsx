@@ -85,7 +85,7 @@ export default function CategoryGallery({
               type="button"
               onClick={close}
               aria-label="Kapat"
-              className="absolute right-4 top-4 flex h-11 w-11 items-center justify-center rounded-full border border-white/20 text-white transition-colors hover:border-gold-bright hover:text-gold-bright sm:right-8 sm:top-8"
+              className="absolute right-4 top-4 z-10 flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-[var(--ink)]/40 text-white transition-colors hover:border-gold-bright hover:text-gold-bright sm:right-8 sm:top-8"
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="h-5 w-5">
                 <path d="m6 6 12 12M18 6 6 18" strokeLinecap="round" />
@@ -99,7 +99,7 @@ export default function CategoryGallery({
                 prev();
               }}
               aria-label="Önceki görsel"
-              className="absolute left-2 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 text-white transition-colors hover:border-gold-bright hover:text-gold-bright sm:left-6"
+              className="absolute left-2 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-[var(--ink)]/40 text-white transition-colors hover:border-gold-bright hover:text-gold-bright sm:left-6"
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="h-5 w-5">
                 <path d="m15 5-7 7 7 7" strokeLinecap="round" strokeLinejoin="round" />
@@ -112,7 +112,7 @@ export default function CategoryGallery({
                 next();
               }}
               aria-label="Sonraki görsel"
-              className="absolute right-2 top-1/2 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 text-white transition-colors hover:border-gold-bright hover:text-gold-bright sm:right-6"
+              className="absolute right-2 top-1/2 z-10 flex h-11 w-11 -translate-y-1/2 items-center justify-center rounded-full border border-white/20 bg-[var(--ink)]/40 text-white transition-colors hover:border-gold-bright hover:text-gold-bright sm:right-6"
             >
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5} className="h-5 w-5">
                 <path d="m9 5 7 7-7 7" strokeLinecap="round" strokeLinejoin="round" />
