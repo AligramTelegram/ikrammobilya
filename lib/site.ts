@@ -211,26 +211,38 @@ export interface BlogPostDef {
   description: string;
   excerpt: string;
   publishedAt: string;
+  updatedAt?: string;
 }
 
 export const BLOG_POSTS: BlogPostDef[] = [
   {
-    slug: "ozel-olcu-gardirop-fiyatlari-nasil-belirlenir",
-    title: "Özel Ölçü Gardırop Fiyatları Nasıl Belirlenir?",
-    description:
-      "Özel ölçü gardırop fiyatını etkileyen faktörler: ölçü, malzeme, kapak seçeneği ve montaj. Çorum İkram Mobilya'dan bilgiler.",
-    excerpt:
-      "Özel ölçü gardırop fiyatı; oda ölçüsü, kullanılan malzeme (MDF/lam/ahşap kaplama), kapak sistemi ve iç düzenleme aksesuarlarına göre değişir.",
-    publishedAt: "2026-08-01",
-  },
-  {
     slug: "mutfak-dolabi-secerken-nelere-dikkat-edilir",
     title: "Mutfak Dolabı Seçerken Nelere Dikkat Edilmeli?",
     description:
-      "Mutfak dolabı seçerken malzeme kalitesi, ölçü uyumu ve menteşe/çekmece sistemleri hakkında bilmeniz gerekenler.",
+      "Çorum'da mutfak dolabı seçerken malzeme, nem dayanımı, menteşe/çekmece sistemi ve doğru ölçü alımı hakkında atölyeden pratik notlar.",
     excerpt:
-      "Mutfak dolabı seçimi; malzeme kalitesi, nem dayanımı, menteşe/çekmece sistemi ve ölçü uyumuna göre yapılmalıdır. Nemli ortamda kullanılacak mutfak dolabında suya dayanıklı MDF veya masif ahşap kaplama tercih edilmelidir — düşük kaliteli malzeme zamanla şişer ve kapanmaz hale gelir. Çekmece ve menteşe sisteminde yumuşak kapanma (soft-close) mekanizması hem kullanım konforu hem uzun ömür sağlar. En kritik adım ise doğru ölçü alımıdır: standart hazır dolaplar mutfağınızın gerçek ölçüsüne nadiren tam oturur, bu yüzden özel ölçü üretim tercih edilmelidir. İkram Mobilya atölyesinde her mutfak dolabı, mutfağınızın kendi ölçüsüne göre üretilir; hazır modül değil, size özel tasarım sunulur.",
+      "Mutfak dolabı seçimi malzeme kalitesi, nem dayanımı ve doğru ölçü alımına göre şekilleniyor. Hazır sistemler yerine özel ölçü tercih etmenin nedenlerini ve fiyatı belirleyen etkenleri anlatıyoruz.",
     publishedAt: "2026-08-10",
+    updatedAt: "2026-08-27",
+  },
+  {
+    slug: "ozel-olcu-gardirop-fiyatlari-nasil-belirlenir",
+    title: "Özel Ölçü Gardırop Fiyatları Nasıl Belirlenir?",
+    description:
+      "Özel ölçü gardırop fiyatını etkileyen faktörler: ölçü, malzeme, kapak sistemi ve iç düzenleme. Çorum İkram Mobilya'dan bilgiler.",
+    excerpt:
+      "Gardırop fiyatı oda ölçüsü, malzeme, kapak sistemi (sürgülü/menteşeli) ve iç düzenleme aksesuarlarına göre değişiyor. Vestiyer ve giyinme odası farkını da anlatıyoruz.",
+    publishedAt: "2026-08-01",
+    updatedAt: "2026-08-27",
+  },
+  {
+    slug: "komidin-secerken-nelere-dikkat-edilmeli",
+    title: "Komidin Seçerken Nelere Dikkat Edilmeli?",
+    description:
+      "Komidin yüksekliği, malzeme, çekmece sistemi ve fiyatını belirleyen etkenler. Çorum İkram Mobilya atölyesinden özel ölçü komidin rehberi.",
+    excerpt:
+      "Komidin küçük görünse de yatak yüksekliğiyle uyumu, çekmece sistemi ve malzeme kalitesi kullanım konforunu doğrudan etkiliyor. Set mi tek parça mı sipariş etmeli, fiyatı ne belirliyor anlatıyoruz.",
+    publishedAt: "2026-08-27",
   },
   {
     slug: "toptan-mobilya-uretimi-nasil-isler",

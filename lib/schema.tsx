@@ -155,6 +155,7 @@ export function articleSchema(opts: {
   description: string;
   path: string;
   publishedAt: string;
+  updatedAt?: string;
 }) {
   return {
     "@context": "https://schema.org",
@@ -163,7 +164,7 @@ export function articleSchema(opts: {
     description: opts.description,
     url: `${SITE_URL}${opts.path}`,
     datePublished: opts.publishedAt,
-    dateModified: opts.publishedAt,
+    dateModified: opts.updatedAt ?? opts.publishedAt,
     author: {
       "@type": "Organization",
       name: SITE_NAME,
