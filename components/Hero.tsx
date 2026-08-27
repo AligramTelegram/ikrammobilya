@@ -84,8 +84,8 @@ export default function Hero() {
         className="relative z-10 flex min-h-[30vh] w-full max-w-xl flex-col justify-center px-6 py-12 lg:absolute lg:inset-y-0 lg:left-0 lg:w-[48%] lg:max-w-none lg:min-h-0 lg:py-0 lg:pl-32 lg:pr-6 xl:pl-40"
       >
         <motion.h1
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ y: 24 }}
+          animate={{ y: 0 }}
           transition={{ duration: 0.7, delay: 0.3, ease: [0.22, 1, 0.36, 1] }}
           className="font-display max-w-xl text-4xl sm:text-5xl lg:text-6xl"
         >
@@ -97,8 +97,8 @@ export default function Hero() {
         </motion.h1>
 
         <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
+          initial={{ y: 16 }}
+          animate={{ y: 0 }}
           transition={{ duration: 0.7, delay: 0.45 }}
           className="mt-6 max-w-sm text-base text-black/65 sm:text-lg"
         >
