@@ -13,8 +13,8 @@ export const BUSINESS_ADDRESS = {
   addressCountry: "TR",
 };
 export const BUSINESS_GEO = {
-  latitude: 40.5506,
-  longitude: 34.9556,
+  latitude: 40.5194769,
+  longitude: 34.9445556,
 };
 export const BUSINESS_HOURS = "Mo-Sa 09:00-19:00";
 
