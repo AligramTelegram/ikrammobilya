@@ -25,7 +25,7 @@ const faqItems = [
   {
     question: "İkram Mobilya Çorum'da nerede?",
     answer:
-      "İkram Mobilya atölyesi, Çorum Yeniyol Mahallesi Mobilyacılar Caddesi üzerindedir. Güncel adres ve konum için iletişim sayfamızı inceleyebilirsiniz.",
+      "İkram Mobilya atölyesi, Çorum Mimarsinan Mahallesi'nde, Çorum Sanayi Sitesi 28. Sokak No:6/B adresindedir. Güncel adres ve konum için iletişim sayfamızı inceleyebilirsiniz.",
   },
   {
     question: "İkram Mobilya bir mobilyacı mı, marangoz mu, yoksa imalatçı mı?",

@@ -1,13 +1,13 @@
 export const SITE_URL = "https://corummobilya.com";
 export const SITE_NAME = "İkram Mobilya";
 export const SITE_TITLE = "İkram Mobilya | Çorum Mobilya İmalatı";
-export const BUSINESS_PHONE = "+903641234567";
-export const BUSINESS_PHONE_DISPLAY = "0364 123 45 67";
-export const BUSINESS_WHATSAPP = "https://wa.me/903641234567";
+export const BUSINESS_PHONE = "+905455738515";
+export const BUSINESS_PHONE_DISPLAY = "0545 573 85 15";
+export const BUSINESS_WHATSAPP = "https://wa.me/905455738515";
 export const BUSINESS_EMAIL = "info@corummobilya.com";
 export const BUSINESS_ADDRESS = {
-  streetAddress: "Yeniyol Mahallesi, Mobilyacılar Caddesi No:1",
-  addressLocality: "Çorum",
+  streetAddress: "Mimarsinan Mahallesi, Çorum Sanayi Sitesi 28. Sokak No:6/B",
+  addressLocality: "Merkez / Çorum",
   addressRegion: "Çorum",
   postalCode: "19000",
   addressCountry: "TR",
